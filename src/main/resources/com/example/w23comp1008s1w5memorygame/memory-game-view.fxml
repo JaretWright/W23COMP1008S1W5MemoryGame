@@ -13,7 +13,6 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-
 <AnchorPane prefHeight="650.0" prefWidth="1000.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w23comp1008s1w5memorygame.MemoryGameController">
    <children>
       <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -91,6 +90,7 @@
                      </children>
                   </GridPane>
                   <Button mnemonicParsing="false" onAction="#playAgain" text="Play Again" />
+                  <Button mnemonicParsing="false" onAction="#playWarGame" text="Play War Game" />
                </children>
             </HBox>
          </children>

@@ -30,4 +30,9 @@ public class MemoryCard extends Card {
         return (this.getSuit().equals(otherCard.getSuit())
                && this.getFaceName().equals(otherCard.getFaceName()));
     }
+
+    public String toString()
+    {
+        return super.toString() + " matched: " + matched;
+    }
 }

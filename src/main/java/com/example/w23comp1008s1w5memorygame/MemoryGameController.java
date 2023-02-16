@@ -122,7 +122,7 @@ public class MemoryGameController implements Initializable {
 
     /**
      * This method loops over all the imageView objects and will check if the
-     * the card is matched.  If it is matched, show the face, if it is not matched,
+     * the related card is matched.  If it is matched, show the face, if it is not matched,
      * show the back
      */
     private void flipAllCards()
@@ -132,10 +132,16 @@ public class MemoryGameController implements Initializable {
         {
             ImageView imageView = getImageViewFromIndex(i);  //get the ImageView object related to the Card
             MemoryCard memoryCard = cardsInGame.get(i);      //get the MemoryCard object from the list of MemoryCards
-            if (memoryCard.isMatched())                     //check if it's matched
+            System.out.println(memoryCard);
+            if (memoryCard.isMatched())//check if it's matched
+            {
                 imageView.setImage(memoryCard.getImage());  //if matched, show the face of the Card
+            }
             else
+            {
                 imageView.setImage(memoryCard.getBackOfCardImage());  //if not matched, show the back of the card
+            }
+
         }
     }
 
@@ -146,5 +152,14 @@ public class MemoryGameController implements Initializable {
     {
         guessesLabel.setText(String.valueOf(guesses));
         correctLabel.setText(String.valueOf(correct));
+    }
+
+    /**
+     * When this button is clicked, the program will load the war-game.fxml file
+     * @param event
+     */
+    @FXML
+    void playWarGame(ActionEvent event) {
+
     }
 }
