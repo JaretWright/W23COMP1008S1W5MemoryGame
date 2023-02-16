@@ -11,6 +11,10 @@ public class Card {
     private String faceName;
     private String suit;
 
+    //This is an inline comment
+    /*
+    This is also an inline comment.  In line comments are ignored by the development environment
+     */
     /**
      * This is a constructor.  It is called when we want to instantiate (create an
      * instance) of our object.
@@ -20,7 +24,7 @@ public class Card {
     public Card(String faceNumber, String suit)
     {
         setFaceName(faceNumber);
-       setSuit(suit);
+        setSuit(suit);
     }
 
     public String getFaceName() {
@@ -54,8 +58,7 @@ public class Card {
         if (getValidFaceNames().contains(faceName))
             this.faceName = faceName;
         else
-            throw new IllegalArgumentException(faceName + " must be in the list of "
-              + getValidFaceNames());
+            throw new IllegalArgumentException(faceName + " must be in the list of " + getValidFaceNames());
     }
 
     public String getSuit() {

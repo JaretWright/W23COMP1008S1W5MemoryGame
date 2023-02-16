@@ -20,52 +20,52 @@
          <children>
             <FlowPane fx:id="flowPane" alignment="CENTER" hgap="20.0" prefWidth="1000.0" vgap="20.0">
                <children>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="210.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="210.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="410.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="410.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="610.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="610.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="810.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="810.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="10.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="10.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="210.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="210.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="410.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="410.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="610.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="610.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="75.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="75.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="415.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="300.0" fitWidth="170.0" layoutX="415.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/3_of_spades.png" />
                      </image>
