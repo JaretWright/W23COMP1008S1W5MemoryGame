@@ -3,7 +3,6 @@ package com.example.w23comp1008s1w5memorygame;
 public class MemoryCard extends Card {
     private boolean matched;
 
-
     /**
      * This is a constructor.  It is called when we want to instantiate (create an
      * instance) of our object.
