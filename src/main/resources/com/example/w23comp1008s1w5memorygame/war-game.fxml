@@ -7,7 +7,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
 <AnchorPane prefHeight="650.0" prefWidth="1000.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w23comp1008s1w5memorygame.WarGameController">
@@ -40,23 +42,33 @@
             </VBox>
          </right>
          <center>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <StackPane BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fx:id="p1ImageView" fitHeight="281.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/2_of_hearts.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="p2ImageView" fitHeight="281.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/2_of_hearts.png" />
-                     </image>
-                  </ImageView>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <ImageView fx:id="p1ImageView" fitHeight="281.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/2_of_hearts.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="p2ImageView" fitHeight="281.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/2_of_hearts.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <Label id="winnerLabel" fx:id="winnerLabel" rotate="-45.0" text="Label" />
                </children>
-            </HBox>
+            </StackPane>
          </center>
          <bottom>
-            <Button mnemonicParsing="false" onAction="#playHand" text="Play Next Hand" BorderPane.alignment="CENTER" />
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="50.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="playButton" mnemonicParsing="false" onAction="#playHand" prefWidth="260.0" text="Play Next Hand" />
+                  <Button fx:id="playAgainButton" mnemonicParsing="false" onAction="#newGame" prefWidth="260.0" text="Play Again" />
+               </children>
+            </FlowPane>
          </bottom>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
