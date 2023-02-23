@@ -11,3 +11,10 @@
 .button{
     -fx-background-radius: 40px;
 }
+
+#winnerLabel
+{
+    -fx-text-fill: #ff3d00;
+    -fx-font-size: 36 pt;
+    -fx-font-weight: bold;
+}

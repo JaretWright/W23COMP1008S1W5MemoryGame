@@ -35,4 +35,14 @@ public class DeckOfCards {
     {
         Collections.shuffle(deck);
     }
+
+    /**
+     * This method returns the number of cards currently in the deck
+     * @return an int that represents the # of cards in the deck
+     */
+    public int getNumOfCardsInDeck()
+    {
+        return deck.size();
+    }
+
 }
